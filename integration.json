@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "d99d92fc550e1887b0f34fc87e56ab4969dcc3c3b0a504833805b5f95ab3206e",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://docs.activecalculator.com/openapi.json"
+  ],
+  "id": "activecalculator-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "ActiveCalculator MCP setup and connection checker",
+  "description": "Generate ActiveCalculator MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "activecalculator",
+  "appName": "ActiveCalculator",
+  "providerDocs": "https://docs.activecalculator.com/openapi.json",
+  "providerWebsite": "https://activecalculator.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://activecalculator.com/help/article/api-keys",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-activecalculator-mcp"
+}
