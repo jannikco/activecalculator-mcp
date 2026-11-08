@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-activecalculator",
+      "description": "Connect AI agents to ActiveCalculator using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-activecalculator/SKILL.md": "1ea3c62fe7684bbd9f0a5ea8e59a6302e8f54113e8ad9faada0f7c76a4d9bc96"
+  }
+}
